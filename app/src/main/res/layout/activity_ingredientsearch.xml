@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ingredientse"
+    tools:context=".Ingredientsearch">
+
+
+
+        <EditText
+            android:id="@+id/editbox"
+            android:layout_width="match_parent"
+            android:textSize="24sp"
+            android:layout_marginTop="24sp"
+            android:layout_height="50dp"
+            android:hint="Search your ingredient"
+            android:background="#2196F3"/>
+
+        <Button
+            android:id="@+id/retrieve_meal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Retrieve Meals" />
+
+        <Button
+            android:id="@+id/save_meal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTintMode="src_in"
+            android:text="Save meals to Database" />
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details by ingredient"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="@color/white"/>
+
+    </ScrollView>
+
+</LinearLayout>
+
+

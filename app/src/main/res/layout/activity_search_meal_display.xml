@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/searchbutton"
+    tools:context=".SearchMealDisplay">
+
+
+    <EditText
+        android:id="@+id/editboxforsearching"
+        android:layout_width="match_parent"
+        android:textSize="24sp"
+        android:layout_marginTop="24sp"
+        android:layout_height="50dp"
+        android:hint="Search Your Meals"
+        android:background="#31A7B6"/>
+
+    <Button
+        android:id="@+id/searchmeals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Search for Meals" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
+
+
+
+
+

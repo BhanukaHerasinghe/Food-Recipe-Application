@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">androidcw2</string>
+    <string name="add_meals_to_db">Add Meals to DB</string>
+    <string name="search_for_meals_by_ingredient">Search for Meals By Ingredient</string>
+    <string name="search_for_meals">Search for Meals</string>
+    <string name="search_meal_on_webservice">Search Meal on WebService</string>
+</resources>
